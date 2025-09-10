@@ -7,3 +7,5 @@ result = x + y;
 This is some more code
 
 even more code
+
+my feature 2 update
