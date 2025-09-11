@@ -1,0 +1,25 @@
+singlevalue: Hello
+myname: Steve Shilling
+arrayofnames:
+  - Rap
+  - Steve Shilling
+  - Michelle
+  - Ola
+dictionaryofpeople:
+  Rap:
+    name: Rap
+    hobby: 
+      - Golf
+      - Jogging
+    drink: Burboun
+  Steve:
+    name: Steve Shilling
+    hobby: 
+      - Tennis
+      - Squash
+      - Motorcycling
+    drink: Single Malt
+  Michelle:
+    name: Michelle
+    hobby: 
+      - Riding

@@ -1,0 +1,21 @@
+name: Check NodeJS runs correctly
+
+on:
+  push:
+    paths:
+      - **/*.js
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        node-version: 22.x
+    - name: Run our script
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22.x
+    - run: |
+        node server.js
