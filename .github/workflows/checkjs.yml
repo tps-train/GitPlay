@@ -3,7 +3,7 @@ name: Check NodeJS runs correctly
 on:
   push:
     paths:
-      - **/*.js
+      - '**/*.js'
 
 jobs:
   build:
