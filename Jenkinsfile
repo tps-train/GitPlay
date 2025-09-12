@@ -6,7 +6,7 @@ pipeline {
             steps {
                 dir("server") {
                     bat """
-                    npm.exe install
+                    npm.cmd install
                     """
                 }
             }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 dir("server") {
                     bat """
-                    npm.exe run lint
+                    npm.cmd run lint
                     """
                 }
             }
