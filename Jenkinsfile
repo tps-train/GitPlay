@@ -5,8 +5,8 @@ pipeline {
         stage("Prepare environment") {
             steps {
                 dir("server") {
-                    sh """
-                    npm install
+                    bat """
+                    C:\Program Files\nodejs\npm install
                     """
                 }
             }
@@ -14,8 +14,8 @@ pipeline {
         stage("Lint checks") {
             steps {
                 dir("server") {
-                    sh """
-                    npm run lint
+                    bat """
+                    C:\Program Files\nodejs\npm run lint
                     """
                 }
             }
