@@ -1,0 +1,29 @@
+{
+  "name": "gitplay",
+  "version": "1.0.0",
+  "description": "Just making it up as I go along",
+  "homepage": "https://github.com/tps-train/GitPlay#readme",
+  "bugs": {
+    "url": "https://github.com/tps-train/GitPlay/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tps-train/GitPlay.git"
+  },
+  "license": "ISC",
+  "author": "Steve",
+  "type": "module",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "test",
+    "start": "node webserver.js",
+    "cli": "node server.js",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.35.0"
+  }
+}

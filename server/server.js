@@ -1,9 +1,10 @@
 console.log("Hello world");
 
-x = 2;
-y = 40
-result = x + y;
+let x = 2;
+let y = 40;
+let result = x + y;
 
+console.log(`The result of ${x} + ${y} is ${result}`);
 // This is some more code
 
 // even more code
